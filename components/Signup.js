@@ -45,7 +45,7 @@ function Signup(props){
         setFormErrorMsg("");
         setIsSubmitting(true);
 
-        axios.post("/api/auth/signup", {
+        axios.post("/disecto/api/auth/signup", {
             username: username,
             password: password,
             isAdmin: userType === "admin"

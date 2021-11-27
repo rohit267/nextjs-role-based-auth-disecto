@@ -20,7 +20,7 @@ function Login(props) {
     function handleSubmit(e) {
         e.preventDefault();
         setIsSubmitting(true);
-        axios.post('/api/auth/login',{
+        axios.post('/disecto/api/auth/login',{
             username: username,
             password: password
         }).then(res => {

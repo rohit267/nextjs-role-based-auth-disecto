@@ -11,7 +11,7 @@ function AdminPanel(props){
 
     function handleLogout(){
         setIsLoading(true);
-        axios.post('/api/auth/logout').then(res => {
+        axios.post('/disecto/api/auth/logout').then(res => {
             setIsLoading(false);
             Router.push('/');
         }).catch(err => {
