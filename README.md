@@ -16,11 +16,11 @@ Open [http://localhost:3001](http://localhost:3001) with your browser to see the
 ## Description
 
 ### Pages
-  1. `/`============> For Login/Signup
-  2. `/admin-panel` ==> For Admin users
-  3. `/user-panel`  ===> For Normal users
-  4. `/404`==========> For 404
+  1. `/disecto`============> For Login/Signup
+  2. `/disecto/admin-panel` ==> For Admin users
+  3. `/disectouser-panel`  ===> For Normal users
+  4. `/disecto/404`==========> For 404
 ### APIS
-  1. `/api/auth/logn` =====> For Login
-  2. `/api/auth/signup` ===> For Signup
-  3. `/api/auth/logout` ===> For Logout
+  1. `/disecto/api/auth/logn` =====> For Login
+  2. `/disecto/api/auth/signup` ===> For Signup
+  3. `/disecto/api/auth/logout` ===> For Logout

@@ -3,7 +3,7 @@ import User from '../../../models/User';
 import Cookie from "cookies";
 import jwt from "jsonwebtoken";
 import db from '../../../controller/db';
-const config = require('../../../configs');
+import config from '../../../configs';
 
 function signup(req,res){
     console.log(req.body);
