@@ -26,7 +26,7 @@ function Login(props) {
         }).then(res => {
             if(res.data.error){
                 setIsSubmitting(false);
-                setFormErrorMsg(res.data.message);
+                setFormErrorMsg(res.data.error);
                 return;
             }
            res.data.isAdmin ? Router.push('/admin-panel') : Router.push('/user-panel');
